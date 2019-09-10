@@ -1,0 +1,149 @@
+@font-face {
+font-family: "Rubik-Light";
+    src: url('../../res/fonts/Rubik-Light.eot');
+    src: url('../../res/fonts/Rubik-Light.eot#iefix') format('embedded-opentype'),
+         url('../../res/fonts/Rubik-Light.woff') format('woff'),
+         url('../../res/fonts/Rubik-Light.ttf') format('truetype'),
+         url('../../res/fonts/Rubik-Light.svg#Name') format('svg');
+}
+
+body {
+	/*background-image : url("../../res/imgs/background1.jpg");
+	background-repeat: no-repeat;
+	background-size : 1980px 1080px cover;*/
+	width : 100%;
+	overflow-x: hidden;
+
+
+}
+
+.parallax1, .parallax2, .parallax3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+
+.parallax1 {
+  background-image: url("../../res/imgs/background1.jpg");
+  min-height : 100%;
+   padding : 15% 15%;
+   background-size: cover;	
+}
+
+.parallax2{
+  	color : rgb(255,255,255);
+	font-size: 60px;
+	font-family: Rubik-Light, Arial, sans-serif;
+  padding : 25% 25%;
+  min-height : 100%;0
+    background-size: cover;
+  background-image: url("../../res/imgs/background2.jpg");
+}
+
+.parallax3 {
+  padding : 25% 25%;
+    background-size: cover;
+  background-image: url("../../res/imgs/SITE.jpg");
+
+}
+
+
+
+
+#main {
+	padding-top : 0.05%;
+	text-align : center;
+	
+}
+
+
+h1{
+	color : rgb(25,25,25);
+	font-size: 60px;
+	font-family:  Arial, sans-serif;
+}
+
+h2{
+	text-align : center;
+	color : rgb(25,25,25);
+	font-size: 30px;
+	font-family: Rubik-Light, Arial, sans-serif;
+}
+
+h1:hover{
+	color : rgb(107,142,35); 
+	font-size: 62px;
+	font-family: Rubik-Light, Arial, sans-serif;
+}
+
+a h1{
+	color : Black;
+	font-size: 60px;
+	font-family: Rubik-Light, Arial, sans-serif;
+}
+
+ul{
+	
+}
+li{
+	display : inline;
+	padding : 5% 2%;
+	font-size : 25px;
+	color : rgb(100,100,100);
+	font-family: Rubik-Light, Arial, sans-serif;
+}
+
+a{
+	text-decoration:none;
+	
+}
+
+p.a{
+	text-align : center;
+	font-family: Arial, sans-serif;
+	font-style : italic;
+}
+
+li:hover{
+	display : inline;
+	padding : 5% 2%;
+	font-size : 28px;
+	color : rgb(200,200,105);
+	font-family: Rubik-Light, Arial, sans-serif;
+	
+}
+div.additional{
+	height : 2px;
+	width  : 2px;
+	position: sticky;
+	top: 0;
+}	
+
+#soc{
+	color : Black;
+	padding : 10px 10px	
+	
+}
+
+.aboutme{
+	 position: relative;
+	 height : 25%;
+	opacity: 0.65;	
+
+	background-color : rgb(210,210,210);
+}
+
+.bottom{
+		
+}
+
+#me{
+	padding:1% 30%	;
+	text-align: justify;
+	font-size : 15px;
+	font-family: Rubik-Light, Arial, sans-serif;
+}
+

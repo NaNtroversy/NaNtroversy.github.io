@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head> 
+		
+		<title>Kevin Jose</title>
+		<link rel="stylesheet" type="text/css" href="src/CSS/style.css">
+	
+	</head>
+
+	<body>
+	
+		<div class = "additional">
+			<img src="res/Logos/it.png" >
+		</div>
+		
+	<div class="parallax1">
+		 <div id="main">
+			<a href="index.html"><h1>KEVIN F JOSE</h1></a>
+			<p class="a">"It takes something more than intelligence to act intelligently" - Fyofor Dostoyevsky</p>
+			<div class="grid-container">
+				<ul>
+					<li  onclick="myFunction()">ABOUT ME</li>
+					<li onclick="myFunction2()">PLACEHOLDER</li>
+					<a href="Resume/resume.pdf"><li>RESUME</li></a>
+				</ul>
+			</div>
+			<div>
+				<a href = "https://www.instagram.com/winters_king/?hl=en"   id="soc"><img src="res/Logos/glyph-logo_May2016.png" height = 34px width = 34px></a>
+				<a  href = "https://www.linkedin.com/in/kevin-jose-97b3b6132/" id="soc"><img src="res/Logos/In-Black-34px-R.png" ></a>
+				<a  href = "https://github.com/TheWintersKing" id="soc"><img src="res/Logos/GitHub-Mark-32px.png" ></a>
+				<div style="padding-top:20%"></div>
+			</div>
+		</div>
+	</div>
+			<div class="aboutme">
+				<div id="me">
+					<h2> ABOUT ME</h2>
+					Currently doing masters in Computer Science at Univesity of  Texas at Arlington. Completed my Bacheolars in Computer Science and Engineering from National Insititute of Technology, Calicut.
+				</div>
+			</div>
+				<div class="parallax2" >
+				Nothing here to see. Just Chilling people, move on people.
+				</div>
+				
+				<div id="content"		 style="height:400px;background-color:Black;font-size:36px;opacity:0.65;">
+						<div class="bottom">
+		
+						</div>
+				</div>
+
+		</div>
+	
+	<script>
+		Element.prototype.documentOffsetTop = function () {
+			return this.offsetTop + ( this.offsetParent ? this.offsetParent.documentOffsetTop() : 0 );
+		};
+		function myFunction() {
+			    var top = document.getElementById("me").documentOffsetTop() - (window.innerHeight * 0.15 );
+				window.scrollTo( 0, top );
+		}
+		
+		function myFunction2() {
+								var elmnt = document.getElementById("content");
+								elmnt.scrollIntoView();
+							  }
+</script>
+		
+	 </body>
+
+</html>
